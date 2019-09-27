@@ -18,7 +18,7 @@ $data = mysql_fetch_array($sql);
                     <div class="left col s12 m5 l5">
                       <ul>
                         <li><a href="#!" class="email-menu"><i class="mdi-navigation-menu"></i></a></li>
-                        <li><a href="#!" class="email-type">Detail Kerusakan</a></li>
+                        <li><a href="#!" class="email-type">Detail Penyakit</a></li>
                       </ul>
                     </div>
                     <div class="col s12 m7 l7 hide-on-med-and-down">
@@ -37,7 +37,7 @@ $data = mysql_fetch_array($sql);
                     <div class="email-content">
                       <div class="row">
                           <div class="col s12 m12 center-align">
-                              <h5>Nama Kerusakan</h5>
+                              <h5>Nama Penyakit</h5>
                               <h3 style="color: red;"><strong><?php echo $data['nama_penyakit'];?></strong></h3>
                               <h5> <i><?php echo $data['nama_latin'];?></i> </h5>
                           </div>
@@ -45,9 +45,9 @@ $data = mysql_fetch_array($sql);
                       <div class="divider"></div>
                                             
                       <!--Sections and Dividers-->
-                      <h4 class="header">Keterangan Kerusakan :</h4>
+                      <h4 class="header">Keterangan Penyakit :</h4>
                       <div class="section">
-                          <h5>Deskripsi Kerusakan</h5>
+                          <h5>Deskripsi Penyakit</h5>
                           <p><?php echo $data['deskripsi'];?></p>
                       </div>
                       <div class="section">
