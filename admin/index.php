@@ -114,7 +114,7 @@
         <div class="pull-right hidden-xs">
           <b>Versi</b> Skripsi Sistem Pakar
         </div>
-        <strong>Copyright &copy; 2018 <a href="#">M. Iqbal | 1406082</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2019 <a href="#">Mubarik Achmad | 1406075</a>.</strong> All rights reserved.
       </footer>
       
       <!-- =============================================== -->

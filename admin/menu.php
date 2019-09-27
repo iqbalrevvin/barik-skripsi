@@ -39,6 +39,7 @@
                 <li><a href="index.php?menu=Data_Penyebab"><i class="fa fa-circle-o"></i> Penyebab</a></li>
               </ul>
             </li>
+            <li><a href="index.php?menu=Laporan_Diagnosa"><i class="fa fa-file"></i> <span>Laporan Diagnosa</span></i></a></li>
             <li><a href="index.php?menu=Basis_Pengetahuan"><i class="fa fa-database"></i> <span>Basis Pengetahuan</span></i></a></li>
           </ul>
         </section>

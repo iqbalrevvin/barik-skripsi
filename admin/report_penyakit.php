@@ -30,7 +30,7 @@ ob_start();
         <table>
           <tr>
             <td><img src="../home/images/sp-detail.png" style="width: 50px;"/></td>
-            <td align="center"><h1>SISTEM PAKAR DIAGNOSA KERUSAKAN AC</h1></td>
+            <td align="center"><h1>Sistem Pakar Pengobatan Homeopathy</h1></td>
           </tr>
         </table>
         
@@ -46,7 +46,7 @@ ob_start();
     </tr>
     <tr>
       <td align="center">
-        <h3><ins>Laporan Data Kerusakan</ins></h3>
+        <h3><ins>Laporan Data Penyakit</ins></h3>
       </td>
     </tr>
     <tr>
@@ -56,8 +56,8 @@ ob_start();
           <thead>
             <tr>
               <th style="width: 30px;">No.</th>
-              <th style="width: 70px; text-align: center;">Kode Kerusakan</th>
-              <th style="text-align: center;">Nama Kerusakan</th>
+              <th style="width: 70px; text-align: center;">Kode Penyakit</th>
+              <th style="text-align: center;">Nama Penyakit</th>
               <!--<th style="text-align: center;">Nama Latin Penyakit</th>-->
             </tr>
           </thead>

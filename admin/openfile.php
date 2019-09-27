@@ -154,7 +154,16 @@ if($_GET) {
 			if(!file_exists ("password/edit_password.php")) die ("Sorry Empty Page!"); 
 			include "password/edit_password.php";
             break;
-            
+
+        /* ----- ***** ----- */
+
+		case 'Laporan_Diagnosa' :
+			if(!file_exists ("laporan/laporan.php")) die ("Sorry Empty Page!"); 
+			include "laporan/laporan.php";
+            break;
+
+        
+        /* ----- ***** ----- */    
 		/* ----- ***** ----- */
         
         case 'Data_About' :
