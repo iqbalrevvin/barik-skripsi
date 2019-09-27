@@ -46,12 +46,13 @@
               <textarea class="materialize-textarea validate" length="320" name="Txt_Alamat"><?php echo $dataAlamat?></textarea>
               <label>Alamat</label>
             </div>
-            <div class="row">
-            <div class="input-field col s12">
-              <input type="text" class="validate" name="Txt_Rasakan" value="<?php echo $dataRasakan?>"/>
-              <label>Apa Yang Dirasakan</label>
-            </div>
           </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input type="text" class="validate" name="Txt_Rasakan" value="<?php echo $dataRasakan?>"/>
+                <label>Apa Yang Dirasakan</label>
+              </div>
+            </div>
             <div class="row">
               <div class="input-field col s12">
                 <button class="btn cyan waves-effect waves-light right" type="submit">Diagnosis<i class="mdi-content-send right"></i></button>
