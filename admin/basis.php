@@ -12,7 +12,7 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    Sistem Pakar Diagnosa Kerusakan AC
+                    Sistem Pakar Pengobatan Homeopathy
                     <br />
                     <small>Versi Skripsi Sistem Pakar</small>
                 </h1>

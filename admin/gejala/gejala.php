@@ -67,7 +67,7 @@
                             <th style="width: 10px;">No.</th>
                             <th style="width: 100px; text-align: center;">Kode Gejala</th>
                             <th style="text-align: center;">Nama Gejala</th>
-                            <!-- <th style="width: 150px; text-align: center;">Operasi</th> -->
+                            <th style="width: 150px; text-align: center;">Operasi</th>
                           </tr>
                         </thead>
                         <tbody>
