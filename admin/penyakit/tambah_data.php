@@ -51,12 +51,12 @@
                                     <input type="text" name="Txt_Nama" class="form-control" placeholder="Masukkan Nama Penyakit" value="<?php echo $dataNama;?>"/>
                                 </div>
                             </div>
-                            <!--<div class="form-group">
-                                <label class="col-sm-2 control-label">Nama Lain</label>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Nama Latin</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="Txt_Latin" class="form-control" placeholder="Masukkan Nama Latin" value="<?php echo $dataLatin;?>"/>
                                 </div>
-                            </div>-->
+                            </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><small class="text-red">*</small>Deskripsi</label>
                                 <div class="col-sm-8">
