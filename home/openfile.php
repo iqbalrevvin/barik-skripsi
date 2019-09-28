@@ -51,7 +51,7 @@ if($_GET) {
       include "detail.php";
     break;
 
-    case 'petunjuk' :
+    case 'Petunjuk' :
       if(!file_exists ("petunjuk.php")) die ("Empty Main Page!"); 
       include "petunjuk.php";
     break;
