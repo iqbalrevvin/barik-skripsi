@@ -51,7 +51,7 @@ $data = mysql_fetch_array($sql);
                       <div class="row">
                           <div class="col s12 m12 center-align">
                               <h5>(<?= $data['kode_penyakit'] ?>)</h5>
-                              <h5>Nama Kerusakan</h5>
+                              <h5>Nama Penyakit</h5>
                               <h5><b><?php echo $data['nama_penyakit'];?></b></h5>
                               
                               <!--<h5> <i><?php echo $data['nama_latin'];?></i> </h5>-->
@@ -59,9 +59,9 @@ $data = mysql_fetch_array($sql);
                       </div>
                       <div class="divider"></div>
                       <!--Sections and Dividers-->
-                      <h4 class="header">Keterangan Kerusakan :</h4>
+                      <h4 class="header">Keterangan Penyakit :</h4>
                       <div class="section">
-                          <h5>Gejala Kerusakan</h5>
+                          <h5>Gejala Penyakit</h5>
                             <?php 
                                 $sql_gejala = mysql_query("select gjl.* from tbl_gejala gjl, tbl_penyebab sb where sb.kode_gejala = gjl.kode_gejala and sb.kode_penyakit = '$data[kode_penyakit]'");
                                 $i = 0;
@@ -75,7 +75,7 @@ $data = mysql_fetch_array($sql);
                           <p><?php echo $data['solusi'];?></p>
                       </div>
                       </div>
-                          <h5>Deskripsi Kerusakan</h5>
+                          <h5>Deskripsi Penyakit</h5>
                           <p><?php echo $data['deskripsi'];?></p>
                       </div>
                       <br />
@@ -84,9 +84,9 @@ $data = mysql_fetch_array($sql);
                           <div class="col s12 m6 l6 center-align right">
                             <p>Approved By</p>
 
-                            <p class="header">Arief Rachman, S.T</p>
+                            <p class="header">dr. H. M. Saleh Sa, M.Kes</p>
                             <div class="divider"></div>
-                            <p>Pakar AC</p>
+                            <p>Pakar Homeopathy</p>
                           </div>
                         </div>
                       </div>
