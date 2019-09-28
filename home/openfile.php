@@ -51,9 +51,9 @@ if($_GET) {
       include "detail.php";
     break;
 
-    case 'Video' :
-      if(!file_exists ("video.php")) die ("Empty Main Page!"); 
-      include "video.php";
+    case 'petunjuk' :
+      if(!file_exists ("petunjuk.php")) die ("Empty Main Page!"); 
+      include "petunjuk.php";
     break;
     
     case 'Logout' :

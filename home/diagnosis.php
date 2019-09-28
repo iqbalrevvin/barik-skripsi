@@ -41,9 +41,15 @@
                 <label>Jenis Kelamin</label>
               </div>
           </div>
-          <div class="row">
+          <!-- <div class="row">
             <div class="input-field col s12">
               <textarea class="materialize-textarea validate" length="320" name="Txt_Alamat"><?php echo $dataAlamat?></textarea>
+              <label>Alamat</label>
+            </div>
+          </div> -->
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" class="validate" length="320" name="Txt_Alamat"><?php echo $dataAlamat?></input>
               <label>Alamat</label>
             </div>
           </div>
