@@ -55,8 +55,8 @@
           </div>
             <div class="row">
               <div class="input-field col s12">
-                <input type="text" class="validate" name="Txt_Rasakan" value="<?php echo $dataRasakan?>"/>
-                <label>Apa Yang Dirasakan</label>
+                <input type="hidden" class="validate" name="Txt_Rasakan" value="-"/>
+                <!-- <label>Apa Yang Dirasakan</label> -->
               </div>
             </div>
             <div class="row">
